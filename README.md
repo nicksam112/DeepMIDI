@@ -7,8 +7,8 @@ This project uses Keras | Tensorflow | and [Mido](https://github.com/mido/mido) 
 
 I tend to use this site for testing MIDI files as I don't have a MIDI player on my own device: [link](http://midiplayer.ehubsoft.net/)
 
-Flags | Usage
---- | --- 
+Command Flags &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;| Usage
+:--- | :--- 
 --run | Runs the model and produces a song. use --save_song_path to give it an output path and --load_weights to load a certain weights file
 --train | Train model, be sure to define weights save path with --save_weights
 --conv | Use 1D Convolution Model instead of LSTM
